@@ -1,0 +1,94 @@
+.header {
+    display: flex;
+    justify-content: space-between; /*horizontal*/
+    align-items: center; /*vertical*/
+    padding: 0em 2em;
+    padding-bottom: 3px;
+    border-bottom: 1px solid darkslategray;
+}
+
+.nav-logo img {
+    max-height: 50px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-item {
+    padding: 2px 1em;
+    border: 0.5px solid black;
+    min-width: 60px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item:hover {
+    background: lightgray;
+}
+
+.greetings {
+    padding-top: 2em;
+    padding-left: 5em;
+    color: white;
+}
+
+.banner {
+    border-bottom: 1px solid black;
+    background-image: url('../assets/bgmount.jpg');
+    background-repeat: no-repeat;
+    background-size: 1366px 578px;
+    height: 578px;
+}
+
+.headquarters {
+    padding: 3em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.circle {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.hq-items {
+    padding: 2em 5em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-text {
+    font-size: small;
+    color: grey;
+    text-align: right;
+}
+
+.form-left {
+    display: flex;
+    padding: 0em 7em;
+}
+
+.msgus {
+    display: flex;
+    padding: 0em 4.7em;
+}
+
+.pesan {
+    padding-bottom: 70px;
+}
+
+.tbl-1 {
+    font-size: 20px;
+    float: left;
+    margin-right: 20px;
+}
+
+.tbl-2 {
+    border: 0.5px solid black;
+    float: right;
+}
